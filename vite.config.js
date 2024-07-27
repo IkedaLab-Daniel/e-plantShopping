@@ -6,11 +6,3 @@ export default defineConfig({
   base: "/shoppingreact",
   plugins: [react()],
 })
-
-export default {
-  build: {
-    rollupOptions: {
-      external: ['react-redux']
-    }
-  }
-}
