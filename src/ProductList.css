@@ -7,7 +7,7 @@ body, h1, ul {
 /* Set a background color */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;  /* this is fine */
+    background-color: #f0f0f0;
 }
 
 /* Navbar */
@@ -198,7 +198,7 @@ body {
 /* ProductList.css */
 
 .product-button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     border: none;
     color: white;
     padding: 10px 20px;
@@ -216,37 +216,37 @@ body {
   }
   
   .product-button.added-to-cart {
-    background-color: grey; /* Grey when product is added */
+    background-color: grey; 
   }
   @media (max-width: 1200px) {
     .product-card {
-      flex: 1 1 calc(33.33% - 20px); /* Adjust width for 3 cards per row with 20px gap on medium screens */
-      max-width: calc(33.33% - 20px); /* Adjust max-width for 3 cards per row with 20px gap on medium screens */
+      flex: 1 1 calc(33.33% - 20px);
+      max-width: calc(33.33% - 20px);
     }
   }
   
   @media (max-width: 768px) {
     .product-card {
-      flex: 1 1 calc(50% - 20px); /* Adjust width for 2 cards per row with 20px gap on small screens */
-      max-width: calc(50% - 20px); /* Adjust max-width for 2 cards per row with 20px gap on small screens */
+      flex: 1 1 calc(50% - 20px); 
+      max-width: calc(50% - 20px);
     }
     .navbar {
-        flex-direction: column; /* Change flex direction to stack items vertically */
-        align-items: center; /* Align items to the center of the container */
+        flex-direction: column; 
+        align-items: center; 
       }
     
       .tag {
-        margin-bottom: 20px; /* Add margin bottom for spacing */
-        text-align: center; /* Align text to the center */
+        margin-bottom: 20px; 
+        text-align: center; 
       }
     
       .ul {
-        display: flex; /* Set display to flex */
-        flex-direction: column; /* Change flex direction to stack items vertically */
-        gap: 10px; /* Add gap between items */
+        display: flex;
+        flex-direction: column; 
+        gap: 10px; 
       }
     
       .ul div {
-        text-align: center; /* Align text to the center */
+        text-align: center; 
       }
   }
