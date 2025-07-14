@@ -258,8 +258,8 @@ function ProductList() {
         setShowPlants(true);
         setShowCart(false); // Hide cart when showing plants
     };
-    const handleContinueShopping = (e) => {
-        e.preventDefault();
+    const handleContinueShopping = () => {
+        // e.preventDefault();
         setShowCart(false);
         setShowPlants(true); // Show plants when continuing shopping
     };

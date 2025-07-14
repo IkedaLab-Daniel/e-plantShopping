@@ -16,8 +16,8 @@ const CartItem = ({ onContinueShopping }) => {
     return cart.reduce((total, item) => total + item.quantity * parseFloat(item.cost.replace('$', '')), 0);
   };
 
-  const handleContinueShopping = (e) => {
-    e.preventDefault();
+  const handleContinueShopping = () => {
+    // e.preventDefault();
     onContinueShopping();
   };
 
